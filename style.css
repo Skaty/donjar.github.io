@@ -20,7 +20,7 @@ h2 {
 
 .inner-container {
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 40em;
 }
 
 .inner-container h1 {
