@@ -9,6 +9,9 @@ abouturl: "herbert.id"
 
 # Build settings
 markdown: kramdown
+collections:
+  - experience
+  - projects
 gems:
   - jekyll-feed
 exclude:

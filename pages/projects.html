@@ -1,0 +1,8 @@
+---
+layout: default
+title: Projects
+permalink: /projects
+---
+{% for item in site.projects reversed %}
+  {% include list_item.html %}
+{% endfor %}
