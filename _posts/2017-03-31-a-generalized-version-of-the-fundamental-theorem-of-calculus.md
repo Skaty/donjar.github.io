@@ -30,13 +30,7 @@ $$\int_a^b f'(x) \, dx = f(b) - f(a).$$
 
 By CSK's FTC it is obvious how one would prove this, since $$F(b) = \int_a^b f(t) \, dt$$ and $$F(a) = 0$$ in CSK's FTC notations.
 
-Now, to prove CSK's FTC, one would need this lemma:
-
-> _Lemma._ Given two functions $$f_1, f_2: [a, b] \to \mathbb{R}$$. If $$f_1$$ is Riemann integrable on $$[a, b]$$ and $$f_1 = f_2$$ on $$(a, b)$$, then $$f_2$$ is also Riemann integrable on $$[a, b]$$ and $$\int_a^b f_1(x) \, dx = \int_a^b f_2(x) \, dx$$.
-
-This is not obvious, since $$f_1$$ and $$f_2$$ can differ at their endpoints (which is at $$a$$ and $$b$$). However, it is still not hard; just consider $$\int_a^b \left( f_1(x) - f_2(x) \right)$$ and prove that it equals 0 with Riemann sums. (In fact, this can be generalised: if $$f_1$$ and $$f_2$$ differs in finitely many points, then their integrals will still be the same!)
-
-Let's go back to the proof; here I will only prove the right-sided version. Let $$\lim_{x \to c^+} f(x) = L$$ exist. Notice that
+Anyways, let's prove it! Here I will only prove the right-sided version, since the left-sided version is very similar. Let $$\lim_{x \to c^+} f(x) = L$$ exist. Notice that
 
 $$\begin{align*}
 \left\vert F'_+(c) - L \right\vert &= \lim_{h \to 0^+} \left\vert \frac{F(c + h) - F(c)}{h} - L \right\vert \\
