@@ -1,11 +1,5 @@
 title: Blog
 author: Herbert Ilhan Tanujaya
-email: h.i@u.nus.edu
-description: >
-  Posts on things that interest me, such as Computer Science,
-  building software, and Mathematics.
-url: "blog.herbert.id"
-abouturl: "herbert.id"
 
 # Build settings
 markdown: kramdown
