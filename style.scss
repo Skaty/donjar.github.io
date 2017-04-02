@@ -1,12 +1,15 @@
 ---
 ---
 
-$bg: #f3f3ee;
+$bg-color: #f8f8fe;
+$hover-color: #f0f0ff;
+$link-color: #273bc2;
+$link-hover-color: #121e87;
 $font-size: calc(14px + 0.3vw);
 
 html,
 body {
-  background-color: $bg;
+  background-color: $bg-color;
   font-family: 'Hind', sans-serif;
   font-size: 16px; // fallback
   font-size: $font-size;
@@ -18,6 +21,28 @@ h1 {
 
 h2 {
   font-size: 2.1em;
+}
+
+a {
+  color: $link-color;
+
+  &:not(.showcase-item):hover {
+    color: $link-hover-color !important;
+    text-decoration: none;
+  }
+}
+
+.navbar {
+  background-color: #fff;
+  border-radius: 0;
+  margin-left: -2em;
+  margin-right: -2em;
+  margin-top: -2em;
+}
+
+.navbar-toggle {
+  height: 34px;
+  padding: 7px 10px;
 }
 
 @media(min-width: 768px) {
@@ -57,7 +82,7 @@ h2 {
   }
 
   &:hover {
-    background-color: darken($bg, 2);
+    background-color: $hover-color;
     color: #000;
   }
 
