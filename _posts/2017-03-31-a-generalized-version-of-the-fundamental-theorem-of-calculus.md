@@ -1,5 +1,6 @@
 ---
 layout: post
+mathjax: true
 date: 2017-03-31
 title: A Generalized Version of the Fundamental Theorem of Calculus
 categories: math real-analysis
@@ -42,4 +43,4 @@ $$\begin{align*}
 
 \end{align*}$$
 
-Now if $$\lim_{x \to c^+} f(x) = L$$ exists, that means that for all $$\varepsilon > 0$$ there exists $$\delta > 0$$ such that $$c < x < c + \delta$$ implies $$\vert f(x) - L \vert < \varepsilon$$. This would mean that if $$0 < h < \delta$$, we have $$\int_c^{c + h} \left\vert f(t) - L \right\vert \, dt \le h\varepsilon$$. Taking $$h \to 0^+$$, we have that $$\left\vert F'_+(c) - L \right\vert$$ goes to 0 as well, and hence, $$F'_+(c) = L = \lim_{x \to c^+}$$. We are done.
+Now if $$\lim_{x \to c^+} f(x) = L$$ exists, that means that for all $$\varepsilon > 0$$ there exists $$\delta > 0$$ such that $$c < x < c + \delta$$ implies $$\vert f(x) - L \vert < \varepsilon$$. This would mean that if $$0 < h < \delta$$, we have $$\int_c^{c + h} \left\vert f(t) - L \right\vert \, dt \le h\varepsilon$$. Taking $$h \to 0^+$$, we have that $$\left\vert F'_+(c) - L \right\vert$$ goes to 0 as well, and hence, $$F'_+(c) = L = \lim_{x \to c^+} f(x)$$. We are done.
