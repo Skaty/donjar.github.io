@@ -2,7 +2,7 @@
 layout: default
 title: Welcome!
 ---
-__Herbert Ilhan Tanujaya__ is a second year Indonesian currently studying Computer Science in the [National University of Singapore](http://nus.edu.sg).
+I am __Herbert Ilhan Tanujaya__, a second year Indonesian currently studying Computer Science in the [National University of Singapore](http://nus.edu.sg).
 
 I enjoy creating software and hacking all things possible. Software engineering provides me a medium to actually craft something that can be useful for the society. The lines of code I craft live in a server, yet it can be used to empower people and solve problems.
 
