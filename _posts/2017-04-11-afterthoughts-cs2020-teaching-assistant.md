@@ -15,7 +15,7 @@ In the end, I took up the job of CS2020 TA, while getting accepted to and taking
 
 _Me and my students in CS2020. There's also the classic tactic of bribing your students pizza to get good feedback ;)_
 
-I also compiled 30 questions for the final discussion session, which can be viewed [here]({{ site.url }}/others/blog-2017-04-11-funquiz.pdf).
+I also compiled 30 questions for the final discussion session, which can be viewed [here]({{ site.url }}/others/blog/2017-04-11-funquiz.pdf).
 
 It was quite a sad moment, actually. This module is offered for the last time in NUS, since CS1020, CS2010, and this is being replaced by CS2030 and CS2040. The professors for this module is Prof. Seth Gilbert and Prof. Alan Cheng, both very enthusiastic and charismatic professors. In the lectures you could feel the energy flowing out from them to the students, and they never seem to be tired at all!
 
