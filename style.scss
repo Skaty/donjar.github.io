@@ -24,7 +24,7 @@ h2 {
 }
 
 a {
-  color: $link-color;
+  color: $link-color !important;
 
   &:hover {
     text-decoration: none;
@@ -128,4 +128,8 @@ img {
   border: 1px solid #aaa;
   margin-left: -1px;
   padding: 0.1em 0.5em;
+}
+
+.blog-index-title {
+  display: inline-block;
 }

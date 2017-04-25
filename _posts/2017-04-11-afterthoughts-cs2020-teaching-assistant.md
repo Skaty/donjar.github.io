@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: false
-date: 2017-04-04
+date: 2017-04-11
 title: "Afterthoughts: CS2020 Teaching Assistant"
 categories: computer-science algorithms life
 ---
