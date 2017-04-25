@@ -26,9 +26,12 @@ h2 {
 a {
   color: $link-color;
 
-  &:not(.showcase-item):hover {
-    color: $link-hover-color !important;
+  &:hover {
     text-decoration: none;
+
+    &:not(.showcase-item) {
+      color: $link-hover-color !important;
+    }
   }
 }
 
