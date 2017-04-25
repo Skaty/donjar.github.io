@@ -2,7 +2,11 @@
 link: https://github.com/donjar/bubble-bobble
 image: bubble-bobble.png
 imagealt: Bubble Bobble
-title: Bubble Bobble (Swift for iOS)
+tags:
+- iOS
+- Swift
+- Cocoapods
+title: Bubble Bobble
 ---
 An iOS game similar to Bubble Mania/Puzzle Bobble, in which players shoot and try to match 3 bubbles of the same color (this has nothing in common with the original Bubble Bobble!). I built almost everything from scratch, including a Physics engine and a level editor.
 

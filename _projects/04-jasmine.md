@@ -2,7 +2,10 @@
 link: https://github.com/jasmine-team/Jasmine
 image: jasmine.jpeg
 imagealt: Jasmine
-title: Jasmine (Swift for iOS)
+tags:
+- iOS
+- Swift
+title: Jasmine
 ---
 An iOS application made to help improve English users' command of Chinese through a gamified educational app. This game features minigames of varying difficulty as well as incentives to let users train regularly.
 

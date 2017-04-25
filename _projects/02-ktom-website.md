@@ -2,7 +2,14 @@
 link: https://github.com/donjar/kontes-terbuka
 image: ktom.png
 imagealt: Open Online Math Contest
-title: Open Online Math Contest Website (Ruby on Rails for web)
+tags:
+- Ruby on Rails
+- NGINX
+- Unicorn
+- PostgreSQL
+- Mailgun
+- Capistrano
+title: Open Online Math Contest Website
 ---
 A web application for the organization Open Online Math Contest in Indonesia. Made in Ruby on Rails, this system allows users to submit answers (both short answers and essays) through this website. Uploading problems, short answers gradings, collation of results, and sending certificates are done automatically.
 

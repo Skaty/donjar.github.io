@@ -4,6 +4,9 @@
   </div>
   <div class="col-sm-9">
     <h2>{{ item.title }}</h2>
+    <div class="tags">
+      {% for tag in item.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+    </div>
     {{ item.content }}
   </div>
 </a>
