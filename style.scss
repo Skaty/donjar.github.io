@@ -71,7 +71,7 @@ a {
 }
 
 .showcase-item {
-  color: #000;
+  color: #000 !important;
   display: block;
   margin-left: -2em;
   margin-right: -2em;
@@ -86,7 +86,6 @@ a {
 
   &:hover {
     background-color: $hover-color;
-    color: #000;
   }
 
   @media(max-width: 767px) {
