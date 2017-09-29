@@ -6,7 +6,7 @@ markdown: kramdown
 collections:
   - experience
   - projects
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - CNAME
